@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-// import React from '@vitejs/plugin-react';
 import axios from 'axios';
 
 //create a function component called WeatherApp
@@ -10,7 +9,6 @@ function WeatherApp() {
   const [query, setQuery] = useState('');
 
   const API_KEY = import.meta.env.VITE_API_KEY;
-  // console.log(import.meta.env.VITE_API_KEY)
 
   //access to API URL
   const URL = `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q={location="Austin"}`
