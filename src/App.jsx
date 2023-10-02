@@ -36,8 +36,8 @@ useEffect(() => {
     <div className="app">
      <div className='main__container'>
       <div className="search">
-        <p>Current Weather in United States</p>
-        <input placeholder="Search for a city, state" type="search" value={query} onChange={event => setQuery(event.target.value)} />
+        <p>Current Weather in City</p>
+        <input placeholder="Search for city" type="search" value={query} onChange={event => setQuery(event.target.value)} />
       </div>
       <div className='top'>
         <div>
