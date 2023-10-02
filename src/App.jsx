@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import './index.css'
 
 //create a function component called WeatherApp
 function WeatherApp() {
