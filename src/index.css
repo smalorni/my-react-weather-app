@@ -45,7 +45,7 @@ h3 {
 
 .app:before {
   content: '';
-  background: url('/public/images/mountains.png') no-repeat center center/cover;
+  background: url('images/mountains.png') no-repeat center center/cover;
   opacity: 85%;
   position: absolute;
   width: 100%;

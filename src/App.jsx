@@ -9,7 +9,7 @@ function WeatherApp() {
   const [location, setLocation] = useState('Dallas, TX');
   const [query, setQuery] = useState('');
 
-  const API_KEY = import.meta.env.VITE_VERCEL_ENV;
+  const API_KEY = import.meta.env.VITE_API_KEY;
 
   //access to API URL
   const URL = `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${location}`
