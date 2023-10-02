@@ -4,14 +4,14 @@ import axios from 'axios';
 //create a function component called WeatherApp
 function WeatherApp() {
   //state variables
-  const [weather, setWeather] = useState(null);
-  const [location, setLocation] = useState('');
+  const [weather, setWeather] = useState('');
+  const [location, setLocation] = useState('Dallas, TX');
   const [query, setQuery] = useState('');
 
   const API_KEY = import.meta.env.VITE_API_KEY;
 
   //access to API URL
-  const URL = `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q={location="Austin"}`
+  const URL = `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${location}`
 
 //to fetch data from the URL using axios
 //useEffect hook runs the function inside of it when the query state variable changes --> this will fetch the data from the API and update the weather and location state variables

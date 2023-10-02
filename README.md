@@ -1,6 +1,8 @@
 # React-Weather App 
 
-<h2>React + Vite, CSS, WeatherAPI</h2>
+### React + Vite, CSS, WeatherAPI
 
-<h2>Goal of Project</h2>
+### Goal of Project
 <p>To learn the process of connecting to an external API using Axios to fetch data</p>
+
+(![Screenshot of Weather App for Seattle, WA](/public/images/Weather-App.png)
